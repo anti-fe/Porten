@@ -1,0 +1,98 @@
+@mixin topFoter() {
+    font-family: $font-f-text;
+    font-weight: $font-w-regular;
+    font-size: 12px;
+    line-height: $font-lh-15px;
+    color: $font-c-gray;
+}
+
+@mixin logo() {
+    font-family: $font-f-logo;
+    font-weight: $font-w-bold;
+    font-size: $font-s-36px;
+    line-height: $font-lh-logo;
+    text-transform: uppercase;
+}
+
+@mixin nav() {
+    font-family: $font-f-text;
+    font-weight: $font-w-regular;
+    font-size: $font-s-14px;
+    line-height: $font-lh-nav;
+    text-transform: uppercase;
+    color: $font-c-gray;
+}
+
+@mixin mainLogo() {
+    font-family: $font-f-logo;
+    font-weight: $font-w-bold;
+    font-size: $font-s-64px;
+    line-height: $font-lh-mainLogo;
+    text-transform: uppercase;
+}
+
+@mixin subLogo() {
+    font-family: $font-f-text;
+    font-weight: $font-w-regular;
+    font-size: $font-s-22px;
+    line-height: $font-lh-text;
+    text-transform: uppercase;
+}
+
+@mixin mainText() {
+    font-family: $font-f-text;
+    font-weight: $font-w-regular;
+    font-size: $font-s-16px;
+    line-height: $font-lh-text;
+}
+
+@mixin text() {
+    font-family: $font-f-text;
+    font-weight: $font-w-regular;
+    font-size: $font-s-14px;
+    line-height: $font-lh-21px;
+}
+
+@mixin title() {
+    font-family: $font-f-PD;
+    font-weight: $font-w-bold;
+    font-size: $font-s-36px;
+    line-height: $font-lh-title;
+    text-transform: uppercase;
+}
+
+@mixin footerTitle() {
+    font-family: $font-f-PD;
+    font-weight: $font-w-regular;
+    font-size: $font-s-24px;
+    line-height: $font-lh-footerTitle;
+    text-transform: uppercase;
+}
+
+@mixin cardTitle() {
+    font-family: $font-f-PD;
+    font-weight: $font-w-bold;
+    font-size: $font-s-18px;
+    line-height: $font-lh-text;
+}
+
+@mixin cardPrice() {
+    font-family: $font-f-PD;
+    font-weight: $font-w-bold;
+    font-size: $font-s-16px;
+    line-height: $font-lh-text;
+    color: $font-c-light-gray;
+}
+
+@mixin btn() {
+    font-family: $font-f-text;
+    font-weight: $font-w-regular;
+    font-size: $font-s-18px;
+    line-height: $font-lh-text;
+    letter-spacing: $font-ls-btn;
+    color: $font-c-white;
+    text-transform: uppercase;
+}
+
+
+
